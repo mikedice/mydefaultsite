@@ -1,0 +1,7 @@
+# ignore directories and files related to the VS project files
+bin/
+obj/
+Properties/
+*.user
+*.suo
+*.config
