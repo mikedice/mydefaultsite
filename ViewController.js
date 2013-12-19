@@ -1,3 +1,4 @@
+// copyright 2014, mikedice417@hotmail.com
 // This script populates/updates the view model
 // and renders the page elements as new data arrives.
 

@@ -1,3 +1,4 @@
+// copyright 2014, mikedice417@hotmail.com
 // This script is responsible for rendering the data in the 
 // ViewModel using jQuery/Dhtml
 

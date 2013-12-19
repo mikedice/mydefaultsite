@@ -1,3 +1,4 @@
+// copyright 2014, mikedice417@hotmail.com
 // This script contains the view model class for the image viewer
 // View model is populated by the view controller class.
 
