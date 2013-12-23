@@ -14,3 +14,25 @@
 {
   width:inherit;
 }
+.content-pane {
+    margin: 20px;
+}
+
+.title-banner {
+    height: 100px;
+    color:red;
+}
+
+
+.blog-feed {
+    color:green;
+
+}
+
+.splash-screen {
+    color:blue;
+}
+
+.gallery-list {
+    color:grey;
+}
