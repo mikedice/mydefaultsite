@@ -39,7 +39,18 @@ var SiteController = (function(){
             }).error(function(result){
                 // todo: handle error            
             });
+        },
+        
+        HomeLinkClicked: function()
+        {
+            alert("show home content");
+        },
+        
+        ContactUsLinkClicked: function()
+        {
+            alert("contact us link clicked");
         }
+        
     };
 }());
 

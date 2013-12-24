@@ -18,7 +18,6 @@
     }
     
     #title-banner {
-        height: 100px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -28,7 +27,34 @@
         background-repeat: no-repeat;
         background-color: black;
         height: 100px;
-        padding-top: 60px;
+    }
+    
+    #title-banner-menu{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 20px;
+    }
+    
+    #title-banner-menu li{
+        display: inline;
+    }
+    
+    #title-banner-menu li a{
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+    #title-banner-menu li a:visited, a:link, a:active{
+        padding-right: 10px;
+        text-decoration: none;
+        color: purple;
+    }
+    
+    #title-banner-menu li a:hover{
+        padding-right: 10px;
+        text-decoration: none;
+        color: lightgrey;
     }
     
     #blog-feed {
@@ -62,8 +88,8 @@
     #gallery-list-anchor{
         display: block;
         width: 80%;
-        border-color: black;
-        border-width: 1px;
+        
+        border-width: 2px;
         border-style: solid;
         border-radius: 8px;
         padding-left: 6px;
@@ -72,18 +98,14 @@
         text-decoration: none;
     }
     
-    #gallery-list-anchor:visited{
+    #gallery-list-anchor:visited, #gallery-list-anchor:active, #gallery-list-anchor:link{
         color: purple;
+        border-color: black;
     }
     
-    #gallery-list-anchor:link{
-        color: purple;
-    }
     #gallery-list-anchor:hover{
         color: purple;
-    }
-    #gallery-list-anchor:active{
-        color: purple;
+        border-color: blue;
     }
 
     #footer {
